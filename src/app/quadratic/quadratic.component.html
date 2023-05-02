@@ -1,0 +1,29 @@
+<form>
+  <h1>Quadratic Calculator</h1>
+  <div>
+    <label>Add A parameter: <input type="number" #A></label>
+  </div>
+  <label>Add B parameter: <input type = "number" #B></label>
+
+  <div>
+    <label>Add C parameter: <input type="number" #C></label>
+  </div>
+
+  <div>
+    <label>Add C parameter: <input type="number" #D></label>
+  </div>
+
+  <button (click)="addNewItem(A.value, B.value, C.value, D.value)">Submit
+
+  </button>
+  <p>
+
+  </p>
+  <p>
+    {{equation}}
+
+  </p>
+  <p>
+    {{result}}
+  </p>
+</form>
