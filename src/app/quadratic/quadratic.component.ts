@@ -20,7 +20,7 @@ export class QuadraticComponent {
 
     if (A == 0) {
       D = D - C;
-      x1 = D / B;
+      x1 = D /B;
       this.result = 'There is a solution of the quadratics equation : x1 = ' + x1;
     } else {
       delta = (B * B) - 4 * A * (C-D);
