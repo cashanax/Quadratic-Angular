@@ -1,19 +1,27 @@
-<form>
-  <h1>Quadratic Calculator</h1>
+<form class="ui large form segment">
+  <style>
+    h2 {text-align: center}
+    div {margin-bottom:1em;}
+  </style>
+
+  <h2>Quadratic Calculator</h2>
   <div>
     <label>Add A parameter: <input type="number" #A></label>
   </div>
+  <div>
   <label>Add B parameter: <input type = "number" #B></label>
-
+  </div>
   <div>
     <label>Add C parameter: <input type="number" #C></label>
   </div>
 
   <div>
-    <label>Add C parameter: <input type="number" #D></label>
+    <label>Add D parameter: <input type="number" #D></label>
   </div>
 
-  <button (click)="addNewItem(A.value, B.value, C.value, D.value)">Submit
+  <button (click)="addNewItem(A.value, B.value, C.value, D.value)"
+          class="ui positive right floated button">
+    Submit
 
   </button>
   <p>

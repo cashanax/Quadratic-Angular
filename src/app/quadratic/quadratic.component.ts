@@ -28,7 +28,7 @@ export class QuadraticComponent {
 
         x1 = (B + Math.sqrt(delta)) / (2 * A);
         x2 = (B - Math.sqrt(delta)) / (2 * A);
-        this.result = 'There are 2 solutions of the quadratics equation : x1 = ' + x1 + ', x2 = ' + x2;
+        this.result = 'There are 2 solutions of the quadratics equation : x1 = ' + x1 +', x2 = ' + x2;
       } else if (delta == 0) {
 
         x1 = (0 - B) / 2 * A;
